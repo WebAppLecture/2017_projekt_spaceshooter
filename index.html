@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Space Impact X</title>
+    <link rel="stylesheet" href="css/stylesheet.css"/>
+</head>
+
+<body background="img/back.png" onload="showHighscores()">
+<div id="heading"><span>SPACE IMPACT X</span></div>
+<div id="buttons">
+    <button id="start" class="btn" type="submit" onclick="main()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Start&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br><br>
+</div>
+
+<div id ="highscoreinput" >
+    <span>Your score was: <span id="score2"></span></span><br>
+    <span>Please enter your name:</span><br>
+    <input  type="text" id="name" required><button type="submit" name="action" id="ok" class="btn2" onclick="setHighscore()">OK!</button>
+    <br><br>
+</div>
+
+<div id ="highscore">
+    <span>Highscores</span><br>
+    <table id="highscoretable" border="1">
+        <tr><td>Name</td><td>Score</td></tr>
+    </table>
+</div>
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="js/controlls.js"></script>
+<script src="js/game.js"></script>
+<script>
+
+</script>
+<noscript>
+    JavaScript ist deaktiviert: Bitte JavaScript aktivieren um weitere Features nutzen zu können!
+</noscript>
+</body>
+<footer id="footer">
+    &copy; <address style="display: inline;">Simon Dobiosz</address>. <span>Erstellt im Rahmen des Kurses "Web-Applications with HTML5 & JavaScript"</span>
+</footer>
+</html>

@@ -1,0 +1,136 @@
+@font-face { font-family: 'space-schrift';
+    src: url('../fonts/SpaceAge.ttf') format('truetype'); } /*https://www.dafont.com/de/space-age.font*/
+#heading
+{
+    width: auto;
+    font-size: 100px;
+    color: #4dffff;
+    margin: auto;
+    text-align: center;
+    font-family: space-schrift, arial, sans-serif;
+}
+#buttons
+{
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+#highscore
+{
+    width: auto;
+    font-size: 50px;
+    color: #4dffff;
+    margin: auto;
+    text-align: center;
+    font-family: space-schrift, arial, sans-serif;
+}
+
+#score2
+{
+    width: auto;
+    font-size: 50px;
+    color: #ff0000;
+    margin: auto;
+    text-align: center;
+    font-family: space-schrift, arial, sans-serif;
+}
+
+#highscoreinput
+{
+    width: auto;
+    font-size: 30px;
+    color: #4dffff;
+    margin: auto;
+    text-align: center;
+    font-family: space-schrift, arial, sans-serif;
+    display: none;
+}
+
+#highscoretable
+{
+    width: auto;
+    font-size: 30px;
+    color: #4dffff;
+    margin: auto;
+    text-align: center;
+    font-family: space-schrift, arial, sans-serif;
+}
+
+.btn {
+    background: #e62b5a;
+    background-image: -webkit-linear-gradient(top, #e62b5a, #742bb8);
+    background-image: -moz-linear-gradient(top, #e62b5a, #742bb8);
+    background-image: -ms-linear-gradient(top, #e62b5a, #742bb8);
+    background-image: -o-linear-gradient(top, #e62b5a, #742bb8);
+    background-image: linear-gradient(to bottom, #e62b5a, #742bb8);
+    -webkit-border-radius: 24;
+    -moz-border-radius: 24;
+    border-radius: 24px;
+    -webkit-box-shadow: 6px 7px 11px #4dffff;
+    -moz-box-shadow: 6px 7px 11px #4dffff;
+    box-shadow: 6px 7px 11px #4dffff;
+    font-family: Arial;
+    color: #4dffff;
+    font-size: 35px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: solid #1f628d 2px;
+}
+
+.btn:hover {
+    background: #2da827;
+    text-decoration: none;
+}
+
+.btn2 {
+    background: #e62b5a;
+    background-image: -webkit-linear-gradient(top, #e62b5a, #742bb8);
+    background-image: -moz-linear-gradient(top, #e62b5a, #742bb8);
+    background-image: -ms-linear-gradient(top, #e62b5a, #742bb8);
+    background-image: -o-linear-gradient(top, #e62b5a, #742bb8);
+    background-image: linear-gradient(to bottom, #e62b5a, #742bb8);
+    -webkit-border-radius: 24;
+    -moz-border-radius: 24;
+    border-radius: 14px;
+    -webkit-box-shadow: 6px 7px 11px #4dffff;
+    -moz-box-shadow: 6px 7px 11px #4dffff;
+    box-shadow: 6px 7px 11px #4dffff;
+    font-family: Arial;
+    color: #4dffff;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: solid #1f628d 2px;
+}
+
+.btn2:hover {
+    background: #2da827;
+    text-decoration: none;
+}
+
+canvas
+{
+    background:url('../img/back2.png');
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 150px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-drag: none;
+}
+
+#footer
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #1f628d;
+    text-align: center;
+}
+
